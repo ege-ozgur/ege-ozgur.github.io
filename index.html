@@ -1,266 +1,285 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ege Özgür | Games Engineering Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ege Özgür's portfolio: gameplay programming, Unreal Engine, real-time graphics, rendering research, and C++ engineering.">
+    <meta name="theme-color" content="#070b12">
+    <title>Ege Özgür — Games Engineer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-<header class="hero">
-    <nav class="navbar">
-        <h1>Ege Özgür</h1>
-        <div class="nav-links">
-            <a href="#projects">Projects</a>
-            <a href="#experience">Experience</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
-        </div>
-    </nav>
-
-    <div class="hero-content">
-        <p class="eyebrow">Games Engineering MSc · University of Warwick</p>
-        <h2>Gameplay Programming, Unreal Engine & Real-Time Graphics</h2>
-        <p>
-            I am a Games Engineering MSc student focused on C++, DirectX 12,
-            real-time rendering, engine architecture, and interactive game systems.
-        </p>
-
-        <div class="hero-buttons">
-            <a class="button primary" href="https://github.com/ege-ozgur" target="_blank" rel="noopener noreferrer">
-                View GitHub
+    <header class="site-header">
+        <nav class="nav shell" aria-label="Primary navigation">
+            <a class="wordmark" href="#top" aria-label="Ege Özgür, back to top">
+                <span class="wordmark-mark" aria-hidden="true">EÖ</span>
+                <span>Ege Özgür</span>
             </a>
-            <a class="button secondary" href="https://www.linkedin.com/in/ege-ozgur" target="_blank" rel="noopener noreferrer">
-                LinkedIn
-            </a>
-            <a class="button secondary" href="Ege_Ozgur_CV.pdf" target="_blank" rel="noopener noreferrer">
-                Download CV
-            </a>
-        </div>
-    </div>
-</header>
+            <div class="nav-links">
+                <a href="#work">Work</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
 
-<main>
+    <main id="main">
+        <section class="hero shell" id="top">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Istanbul · Available for full-time work</p>
+                <h1>I build gameplay systems and make rendering performance <em>visible.</em></h1>
+                <p class="hero-intro">
+                    Games Engineering MSc at the University of Warwick, focused on C++, Unreal Engine 5,
+                    real-time rendering, and the tools that help teams understand complex systems.
+                </p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#work">Explore selected work</a>
+                    <a class="button button-secondary" href="Ege_Ozgur_CV.pdf" download>Download CV</a>
+                </div>
+            </div>
 
-<section id="about" class="section">
-    <h2>About Me</h2>
-    <p>
-        I am currently studying MSc Games Engineering at the University of Warwick,
-        after completing my BSc in Computer Science and Engineering at Sabancı University.
-        My main interests are real-time graphics, custom rendering pipelines,
-        gameplay systems, game engine development, and technical problem solving.
-    </p>
-</section>
+            <aside class="hero-console" aria-label="Engineering focus">
+                <div class="console-topbar">
+                    <span>profile.log</span>
+                    <span aria-hidden="true">● ● ●</span>
+                </div>
+                <dl>
+                    <div><dt>focus</dt><dd>Gameplay + Rendering</dd></div>
+                    <div><dt>stack</dt><dd>C++ · UE5 · DirectX 12</dd></div>
+                    <div><dt>latest</dt><dd>Visual Analytics MSc Thesis</dd></div>
+                    <div><dt>languages</dt><dd>Turkish · English C1</dd></div>
+                </dl>
+                <div class="console-line" aria-hidden="true"><span></span></div>
+            </aside>
 
-<section id="projects" class="section">
-    <h2>Featured Projects</h2>
+            <div class="hero-metrics" aria-label="Portfolio highlights">
+                <div><strong>12.5×</strong><span>renderer speedup</span></div>
+                <div><strong>2</strong><span>complete UE5 levels</span></div>
+                <div><strong>5.4</strong><span>UE benchmark version</span></div>
+                <div><strong>C1</strong><span>English proficiency</span></div>
+            </div>
+        </section>
 
-    <div class="projects-grid">
+        <section class="section shell" id="work">
+            <div class="section-heading">
+                <p class="section-index">01 / Selected work</p>
+                <h2>Engineering projects built around systems, performance, and player experience.</h2>
+            </div>
 
-        <article class="project-card featured">
-            <img
-                class="project-image"
-                src="phoenix-ascendant-gameplay.png"
-                alt="Phoenix Ascendant gameplay showing the player fighting enemies in a snowy arena"
-            >
-        
-            <p class="project-tag">
-                Unreal Engine 5 · C++ · Blueprints · Gameplay Programming
-            </p>
-        
-            <h3>Phoenix Ascendant</h3>
-        
-            <p class="project-meta">
-                Third-Person Action Game · June 2026
-            </p>
-        
-            <p>
-                Developed a complete two-level third-person action game in Unreal Engine 5.4.4
-                using a hybrid C++ and Blueprint architecture. Implemented elemental combat,
-                reusable health and damage systems, wave-based enemy AI, interactive level
-                progression, UMG interfaces, Niagara effects, and spatial audio.
-            </p>
-        
-            <ul class="project-highlights">
-                <li>Elemental fire and light combat system</li>
-                <li>Behavior Tree and NavMesh enemy AI</li>
-                <li>Wave progression, healing, HUD, and interactive altars</li>
-                <li>Complete flow from main menu to victory</li>
-            </ul>
-        </article>
+            <article class="feature-project">
+                <div class="feature-summary">
+                    <p class="project-number">01 — MSc dissertation · Sep 2026</p>
+                    <h3>Visual Analytics for Rendering Performance</h3>
+                    <p>
+                        A controlled Unreal Engine 5.4 benchmark environment and web-based visual analytics tool
+                        for debugging and optimising real-time rendering performance.
+                    </p>
+                    <ul class="impact-list">
+                        <li>Compared frame time, CPU/GPU timing, hitch rate, and pass-level telemetry.</li>
+                        <li>Used repeated runs and statistical confidence intervals for reliable comparisons.</li>
+                        <li>Evaluated LOD, shadows, instancing, resolution scaling, and post-processing trade-offs.</li>
+                    </ul>
+                </div>
+                <div class="analytics-panel" aria-label="Performance analysis dimensions">
+                    <p class="panel-label">Analysis surface</p>
+                    <div class="signal-row"><span>Frame time</span><i></i></div>
+                    <div class="signal-row"><span>CPU / GPU</span><i></i></div>
+                    <div class="signal-row"><span>Hitch rate</span><i></i></div>
+                    <div class="signal-row"><span>Pass telemetry</span><i></i></div>
+                    <p class="panel-note">Controlled runs · confidence intervals · quality/performance comparison</p>
+                </div>
+            </article>
 
-        <article class="project-card">
-            <p class="project-tag">C++ · Rendering · Path Tracing</p>
-            <h3>Physically Based Renderer</h3>
-            <p class="project-meta">Advanced Computer Graphics · May 2026</p>
-            <p>
-                Extended a C++ path tracer with light tracing and instant radiosity rendering modes.
-                Implemented multiple BSDFs, multiple importance sampling, luminance-weighted
-                environment map sampling, binned SAH BVH acceleration, tile-based multithreading,
-                and Intel Open Image Denoise integration.
-            </p>
-            <a href="https://github.com/ege-ozgur/RTBase-Renderer" target="_blank" rel="noopener noreferrer">
-                View on GitHub →
-            </a>
-        </article>
+            <div class="project-grid">
+                <article class="project-card project-card-wide">
+                    <div class="project-card-head">
+                        <p class="project-number">02 — Unreal Engine 5 · Jun 2026</p>
+                        <span class="project-kind">Gameplay</span>
+                    </div>
+                    <img
+                        class="project-image"
+                        src="phoenix-ascendant-gameplay.png"
+                        alt="Phoenix Ascendant gameplay showing the player fighting enemies in a snowy arena"
+                        loading="lazy"
+                        decoding="async"
+                    >
+                    <h3>Phoenix Ascendant</h3>
+                    <p>
+                        A two-level third-person action game built in UE 5.4.4 with a hybrid C++ and Blueprint
+                        architecture, from main menu to victory state.
+                    </p>
+                    <ul class="project-points">
+                        <li>Elemental combat and reusable health/damage systems</li>
+                        <li>Wave-based AI with Behavior Trees, Blackboards, and NavMesh</li>
+                        <li>UMG interfaces, Niagara effects, spatial audio, and interactive progression</li>
+                    </ul>
+                    <div class="tech-list" aria-label="Technologies">
+                        <span>C++</span><span>Blueprints</span><span>UE5</span><span>AI</span><span>UMG</span>
+                    </div>
+                </article>
 
-        <article class="project-card">
-            <p class="project-tag">C++ · DirectX 12 · Engine</p>
-            <h3>3D Game Development with DirectX 12</h3>
-            <p class="project-meta">University of Warwick · December 2025</p>
-            <p>
-                Developed a custom 3D game using C++ and DirectX 12.
-                Implemented rendering pipeline setup, PSO management, constant buffers,
-                shader reflection, instancing, animated and static meshes, camera system,
-                input handling, and real-time performance considerations.
-            </p>
-            <a href="https://github.com/ege-ozgur/3D-Game-Directx12" target="_blank" rel="noopener noreferrer">
-                View on GitHub →
-            </a>
-        </article>
+                <article class="project-card">
+                    <div class="project-card-head">
+                        <p class="project-number">03 — Graphics · May 2026</p>
+                        <span class="project-kind">Rendering</span>
+                    </div>
+                    <h3>Physically Based Renderer</h3>
+                    <p>
+                        Extended a C++ path tracer with light tracing, instant radiosity, multiple BSDFs,
+                        multiple importance sampling, environment-map sampling, and denoising.
+                    </p>
+                    <p class="project-result"><strong>12.5×</strong> render-stage speedup through SAH BVH acceleration and tile-based multithreading.</p>
+                    <a class="text-link" href="https://github.com/ege-ozgur/RTBase-Renderer" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a>
+                </article>
 
-        <article class="project-card">
-            <p class="project-tag">Unreal Engine 5 · Level Design</p>
-            <h3>Skyfire Uprising</h3>
-            <p class="project-meta">Game Engine Design and Development · May 2026</p>
-            <p>
-                Worked as Level Designer for Level 6 of Skyfire Uprising, a single-player
-                alien-invasion game developed in Unreal Engine 5. Designed a spaceport and
-                research facility FPS level with focus on player flow, spatial readability,
-                pacing, traversal routes, landmarks, and gameplay encounter placement.
-            </p>
-        </article>
+                <article class="project-card">
+                    <div class="project-card-head">
+                        <p class="project-number">04 — DirectX 12 · Dec 2025</p>
+                        <span class="project-kind">Engine</span>
+                    </div>
+                    <h3>Custom 3D Game</h3>
+                    <p>
+                        Built a C++/DirectX 12 game with PSO management, constant buffers, shader reflection,
+                        instancing, skeletal animation, camera controls, and real-time rendering.
+                    </p>
+                    <div class="tech-list" aria-label="Technologies">
+                        <span>C++</span><span>DirectX 12</span><span>HLSL</span>
+                    </div>
+                    <a class="text-link" href="https://github.com/ege-ozgur/3D-Game-Directx12" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a>
+                </article>
 
-        <article class="project-card">
-            <p class="project-tag">C++ · Gameplay · AI</p>
-            <h3>3D Survivor Game</h3>
-            <p class="project-meta">University of Warwick · November 2025</p>
-            <p>
-                Developed a 3D survivor-style game using C++.
-                Implemented core gameplay mechanics including player movement,
-                enemy AI behavior, collision detection, camera system, and a real-time update loop.
-            </p>
-            <a href="https://github.com/ege-ozgur/3D-SurvivorGame" target="_blank" rel="noopener noreferrer">
-                View on GitHub →
-            </a>
-        </article>
+                <article class="project-card">
+                    <div class="project-card-head">
+                        <p class="project-number">05 — Level design · May 2026</p>
+                        <span class="project-kind">Design</span>
+                    </div>
+                    <h3>Skyfire Uprising</h3>
+                    <p>
+                        Designed and implemented a spaceport and research-facility FPS level in a six-person
+                        Scrum team, with emphasis on flow, pacing, landmarks, traversal, and encounters.
+                    </p>
+                    <div class="tech-list" aria-label="Technologies">
+                        <span>UE5</span><span>Level Design</span><span>Scrum</span>
+                    </div>
+                </article>
 
-        <article class="project-card">
-            <p class="project-tag">Research · Unreal Engine · Rendering</p>
-            <h3>Critical Review: Nanite vs. Traditional LOD Techniques</h3>
-            <p class="project-meta">Academic Review Paper · April 2026</p>
-            <p>
-                Authored an academic review comparing Unreal Engine’s Nanite virtualized
-                geometry system with traditional Level of Detail techniques. Analysed
-                performance trade-offs, workflow complexity, adoption patterns, and technical
-                limitations in modern real-time rendering pipelines.
-            </p>
-        </article>
+                <article class="project-card">
+                    <div class="project-card-head">
+                        <p class="project-number">06 — Game systems · Jan 2026</p>
+                        <span class="project-kind">Design</span>
+                    </div>
+                    <h3>Tactical Five</h3>
+                    <p>
+                        Designed a football strategy game around card-based actions, possession mechanics,
+                        probability-driven outcomes, MDA, and emergence rather than real-time control.
+                    </p>
+                    <div class="tech-list" aria-label="Methods">
+                        <span>Systems Design</span><span>MDA</span><span>Balancing</span>
+                    </div>
+                </article>
+            </div>
 
-        <article class="project-card">
-            <p class="project-tag">Game Design · Systems Design</p>
-            <h3>Tactical Five</h3>
-            <p class="project-meta">Football Strategy Game · January 2026</p>
-            <p>
-                Designed a football strategy game focused on decision-making rather than
-                real-time control. Implemented card-based gameplay systems, possession mechanics,
-                and probability-driven outcomes while applying MDA framework and emergence theory.
-            </p>
-        </article>
+            <div class="more-work">
+                <div>
+                    <p class="section-index">Additional engineering work</p>
+                    <p>Projects spanning gameplay, backend systems, mobile development, databases, and FPGA design.</p>
+                </div>
+                <ul>
+                    <li><a href="https://github.com/ege-ozgur/3D-SurvivorGame" target="_blank" rel="noopener noreferrer">3D Survivor Game ↗</a><span>C++ · Gameplay AI</span></li>
+                    <li><span>Nanite vs. Traditional LOD Review</span><span>Research · Rendering</span></li>
+                    <li><span>Central LA Application System</span><span>PHP · Team project</span></li>
+                    <li><span>Flight Management App</span><span>Node.js · PostgreSQL</span></li>
+                    <li><span>FUTCARDS Mobile App</span><span>Java · Spring · Android</span></li>
+                    <li><span>Air Hockey on FPGA</span><span>Verilog · Vivado</span></li>
+                </ul>
+            </div>
+        </section>
 
-    </div>
-</section>
+        <section class="section shell" id="experience">
+            <div class="section-heading">
+                <p class="section-index">02 / Experience & education</p>
+                <h2>Software fundamentals, tested in teams and carried into game development.</h2>
+            </div>
 
-<section id="experience" class="section">
-    <h2>Experience</h2>
+            <div class="timeline">
+                <article class="timeline-item">
+                    <p class="timeline-date">2025 — 2026</p>
+                    <div>
+                        <p class="timeline-place">University of Warwick · Coventry, UK</p>
+                        <h3>MSc Games Engineering</h3>
+                        <p>Advanced work in gameplay programming, engine architecture, real-time graphics, Unreal Engine, and rendering-performance analysis.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <p class="timeline-date">Jul — Sep 2024</p>
+                    <div>
+                        <p class="timeline-place">Farmazon · Istanbul</p>
+                        <h3>Software Engineer Intern</h3>
+                        <p>Owned a GitHub Pull Request Checker from concept to delivery using .NET MVC and the GitHub API. Designed the data flow, interface, and filtering logic; iterated with stakeholders in an Agile team.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <p class="timeline-date">Jul — Aug 2023</p>
+                    <div>
+                        <p class="timeline-place">Makswin · Istanbul</p>
+                        <h3>Software & Application Tester</h3>
+                        <p>Wrote and executed test plans across software and mobile products, identified edge cases, documented reproduction steps, and communicated structured findings to product and engineering teams.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <p class="timeline-date">2021 — 2025</p>
+                    <div>
+                        <p class="timeline-place">Sabancı University · Istanbul</p>
+                        <h3>BSc Computer Science & Engineering</h3>
+                        <p>Built a broad computer-science foundation across software engineering, databases, algorithms, graphics, and hardware design.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
 
-    <div class="timeline">
+        <section class="section shell" id="skills">
+            <div class="section-heading compact-heading">
+                <p class="section-index">03 / Toolkit</p>
+                <h2>Comfortable from low-level rendering code to gameplay iteration.</h2>
+            </div>
+            <div class="skills-grid">
+                <article>
+                    <p>Core</p>
+                    <h3>C++ · C# · Java · Python · JavaScript · SQL · Verilog</h3>
+                </article>
+                <article>
+                    <p>Games & graphics</p>
+                    <h3>Unreal Engine 5 · Blueprints · DirectX 12 · HLSL · Niagara · UMG</h3>
+                </article>
+                <article>
+                    <p>Systems & workflow</p>
+                    <h3>Behavior Trees · NavMesh · Git · Agile · Scrum · Testing · Documentation</h3>
+                </article>
+                <article>
+                    <p>Web & data</p>
+                    <h3>.NET MVC · Node.js · Spring · PostgreSQL · MySQL</h3>
+                </article>
+            </div>
+        </section>
 
-        <div class="timeline-item">
-            <h3>Software Engineer Intern</h3>
-            <p class="project-meta">Farmazon · Istanbul · Jul 2024 – Sep 2024</p>
-            <p>
-                Designed and implemented a GitHub Pull Request Checker tool using .NET MVC.
-                Integrated the GitHub API, restructured JSON responses, and developed filtering
-                logic to present pull request data in a cleaner and more readable format.
-            </p>
-        </div>
+        <section class="contact shell" id="contact">
+            <p class="section-index">04 / Contact</p>
+            <h2>I am looking for full-time roles in gameplay, graphics, engine, and technical game development.</h2>
+            <p>Based in Istanbul and available for full-time opportunities in gameplay, graphics, engine, and technical game development.</p>
+            <div class="contact-actions">
+                <a class="button button-primary" href="mailto:egeozgurbusiness@gmail.com">egeozgurbusiness@gmail.com</a>
+                <a class="button button-secondary" href="https://www.linkedin.com/in/ege-ozgur" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                <a class="button button-secondary" href="https://github.com/ege-ozgur" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+        </section>
+    </main>
 
-        <div class="timeline-item">
-            <h3>Software and Application Tester</h3>
-            <p class="project-meta">Makswin · Istanbul · Jul 2023 – Aug 2023</p>
-            <p>
-                Wrote and executed test plans for software and mobile applications,
-                identified edge cases, documented reproduction steps, and provided structured
-                feedback to development teams.
-            </p>
-        </div>
-
-    </div>
-</section>
-
-<section id="skills" class="section">
-    <h2>Skills</h2>
-
-    <div class="skills-grid">
-        <div>
-            <h3>Programming</h3>
-            <ul>
-                <li>C++</li>
-                <li>C#</li>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>PHP</li>
-                <li>SQL</li>
-            </ul>
-        </div>
-
-        <div>
-            <h3>Graphics & Game Development</h3>
-            <ul>
-                <li>DirectX 12</li>
-                <li>HLSL</li>
-                <li>Rendering Pipelines</li>
-                <li>Computer Graphics</li>
-                <li>Game Engine Architecture</li>
-                <li>Unreal Engine 5</li>
-            </ul>
-        </div>
-
-        <div>
-            <h3>Tools & Frameworks</h3>
-            <ul>
-                <li>Git / GitHub</li>
-                <li>Visual Studio</li>
-                <li>.NET MVC</li>
-                <li>Node.js</li>
-                <li>PostgreSQL</li>
-                <li>MySQL</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<section id="contact" class="section contact-section">
-    <h2>Contact</h2>
-    <p>
-        I am open to opportunities related to game development, graphics programming,
-        engine development, and technical gameplay systems.
-    </p>
-
-    <div class="contact-links">
-        <a href="mailto:egeozgurbusiness@gmail.com">Email</a>
-        <a href="https://www.linkedin.com/in/ege-ozgur" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://github.com/ege-ozgur" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-</section>
-
-</main>
-
-<footer>
-    <p>© 2026 Ege Özgür · Games Engineering Portfolio</p>
-</footer>
-
+    <footer class="footer shell">
+        <p>© 2026 Ege Özgür</p>
+        <p>Games engineering · Istanbul, Türkiye</p>
+    </footer>
 </body>
 </html>
